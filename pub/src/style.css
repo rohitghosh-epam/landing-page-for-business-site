@@ -1,0 +1,32 @@
+html body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 4rem;
+}
+
+.header-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+span {
+    color: #AEA1EA
+}
+
+img {
+    border-radius: 10px;
+    height: 18rem;
+    width: 40rem;
+}
+
