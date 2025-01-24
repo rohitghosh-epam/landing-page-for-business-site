@@ -30,3 +30,21 @@ img {
     width: 40rem;
 }
 
+.button-content {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vh;
+}
+
+.button-content button {
+    height: 5vh;
+    width: 20vh;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: #AEA1EA;
+    color: #fff;
+}
+
