@@ -48,3 +48,49 @@ img {
     color: #fff;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    img {
+        border-radius: 10px;
+        height: 10rem;
+        width: 25rem;
+    }
+    
+    .button-content button {
+        height: 5vh;
+        width: 20vh;
+        border-radius: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    img {
+        border-radius: 10px;
+        height: 15rem;
+        width: 35rem;
+    }
+    
+    .button-content button {
+        height: 5vh;
+        width: 20vh;
+        border-radius: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* these dimensions will work for this particular screen size  */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* these dimensions will work for this particular screen size  */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* these dimensions will work for this particular screen size  */
+}
